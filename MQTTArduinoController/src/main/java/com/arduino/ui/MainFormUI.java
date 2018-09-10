@@ -90,6 +90,8 @@ public class MainFormUI extends JFrame {
         options.setConnectionTimeout(100);
         options.setCleanSession(true);
 
+        message_text.setText("Trying to Connect to MQTT Server");
+
         while (!mqtt_client.isConnected())
             mqtt_client.connect(options);
 
