@@ -3,7 +3,7 @@ package com.arduino.sensor;
 import com.arduino.Constants;
 
 public class TemperatureSensor {
-    private final String type = Constants.TEMPERATURE_SENSOR_TYPE;
+    private final String type = Constants.TEMPERATURE_SENSOR_VALUE_START_WITH;
     private long m_celsius;
 
     public TemperatureSensor() {

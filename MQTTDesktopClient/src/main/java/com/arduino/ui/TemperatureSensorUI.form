@@ -55,7 +55,7 @@
             <properties/>
             <border type="none"/>
             <children>
-              <component id="3403a" class="javax.swing.JTextField" binding="farhenheit_temp">
+              <component id="3403a" class="javax.swing.JTextField" binding="fahrenheit_temp">
                 <constraints>
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
                     <preferred-size width="100" height="-1"/>

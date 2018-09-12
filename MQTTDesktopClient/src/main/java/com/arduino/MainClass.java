@@ -1,6 +1,5 @@
 package com.arduino;
 
-import com.arduino.Constants;
 import com.arduino.ui.MainFormUI;
 
 import javax.swing.*;

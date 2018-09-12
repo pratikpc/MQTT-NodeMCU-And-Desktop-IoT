@@ -4,7 +4,7 @@ import com.arduino.Constants;
 
 public class ProximitySensor implements Sensor {
 
-    private final String type = Constants.PROXIMITY_SENSOR_TYPE;
+    private final String type = Constants.PROXIMITY_SENSOR_VALUE_START_WITH;
     private long m_distance_cm;
 
     public ProximitySensor() {

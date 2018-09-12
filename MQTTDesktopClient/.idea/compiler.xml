@@ -7,8 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="1" />
-        <module name="MQTTArduinoController" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="1" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

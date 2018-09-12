@@ -13,11 +13,14 @@ public class Constants {
 
     public static final String MQTT_TOPIC = MQTT_USER_NAME + "/feeds/arduinoiot";
 
-    public static final String PROXIMITY_SENSOR_TYPE = "PSS";
-    public static final String TEMPERATURE_SENSOR_TYPE = "TSS";
+    // Message sent by Arduino When it Starts
+    public static final String ARDUINO_ON = "ARDUINO_ON";
 
-    public static final String ENABLE_PROXIMITY_SENSOR = "ENABLE_" + PROXIMITY_SENSOR_TYPE;
-    public static final String ENABLE_TEMPERATURE_SENSOR = "ENABLE_" + TEMPERATURE_SENSOR_TYPE;
+    public static final String PROXIMITY_SENSOR_VALUE_START_WITH = "PSS";
+    public static final String TEMPERATURE_SENSOR_VALUE_START_WITH = "TSS";
+
+    public static final String ENABLE_PROXIMITY_SENSOR = "ENABLE_" + PROXIMITY_SENSOR_VALUE_START_WITH;
+    public static final String ENABLE_TEMPERATURE_SENSOR = "ENABLE_" + TEMPERATURE_SENSOR_VALUE_START_WITH;
 
     public static final String DISABLE_SENSORS = "DISABLE";
 
