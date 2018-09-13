@@ -169,6 +169,12 @@ MPU6050 g_temperature_sensor;
 
 void connectToTemperatureSensor()
 {
+	// I2CDev Lib doesn't do this automatically
+	// Hence it has to be done manually
+	// For further details, see
+	// https://github.com/jrowberg/i2cdevlib/blob/master/Arduino/MPU6050/examples/IMU_Zero/IMU_Zero.ino
+	Wire.begin();
+		
 	// Initialise the Temperature Sensor
 	g_temperature_sensor.initialize();
 
