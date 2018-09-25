@@ -20,7 +20,7 @@ inline String convertFromByteArray(const byte* p_array, const unsigned int p_siz
 	for (unsigned int i = 0; i < p_size; ++i)
 	{
 		// Convert the element byte to String
-		s[i] = static_cast<char>(p_array[i]);
+		s += static_cast<char>(p_array[i]);
 	}
 
 	return s;

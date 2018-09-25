@@ -4,35 +4,31 @@
 typedef byte Pin;
 
 // Proximity Sensor Trigger Pin
-const Pin PROXIMITY_TRIGGER = NULL;
+const Pin PROXIMITY_TRIGGER = D4;
 // Proximity Sensor Echo Pin
-const Pin PROXIMITY_ECHO = NULL;
+const Pin PROXIMITY_ECHO = D3;
 
 // Define the Maximum Distance of Proxmity Sensor Reading
-const uint16_t PROXIMITY_MAX_DIST_CM = NULL;
+const uint16_t PROXIMITY_MAX_DIST_CM = 100;
 // Define the Minimum Distance of Proxmity Sensor Reading
-const uint16_t PROXMITY_MIN_DIST_CM = NULL;
+const uint16_t PROXMITY_MIN_DIST_CM = 0;
 
 // LED Connected to Pin
-const Pin LED_CONNECTED = NULL;
-
-// SerialWifi defines the Serial from where
-// UART Communication with Wifi Module takes place
-#define SerialWifi Serial3
+const Pin LED_CONNECTED = D5;
 
 // The WIFI Details
 
 // WiFi SSID
 // This is essentially the name of the Wifi
-const char WIFI_SSID[] = "";
+const char WIFI_SSID[] = "WiFi";
 // WIFI Password
-const char WIFI_PASSWORD[] = "";
+const char WIFI_PASSWORD[] = "kanakhalivajau?";
 
 // MQTT Broker Configuration Information
 
 // Using Adafruit as Broker
 // Note that the tcp part may have to be changed
-const char MQTT_BROKER_SERVER[] = "tcp://io.adafruit.com";
+const char MQTT_BROKER_SERVER[] = "io.adafruit.com";
 // Broker Port
 const uint16_t MQTT_BROKER_PORT = 1883;
 // Broker Account User Name
@@ -67,9 +63,9 @@ const char MSG_ARDUINO_ON[] = "ARDUINO_ON";
 // Store the time constants here
 
 // Minimum Time in Which to check Loop Condition
-const uint32_t MIN_TIME_LOOP_CHECK_MS = NULL;
+const uint32_t MIN_TIME_LOOP_CHECK_MS = 2000;
 // Minimum Time in Which to Send Data
-const uint32_t MIN_TIME_DATA_SEND_MS = NULL;
+const uint32_t MIN_TIME_DATA_SEND_MS = 3000;
 
 // Minimum Temperature Threshold
-const int16_t TEMPERATURE_MIN_CELSIUS = NULL;
+const int16_t TEMPERATURE_MIN_CELSIUS = 20;
