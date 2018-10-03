@@ -9,7 +9,7 @@ const Pin PROXIMITY_TRIGGER = D4;
 const Pin PROXIMITY_ECHO = D3;
 
 // Define the Maximum Distance of Proxmity Sensor Reading
-const uint16_t PROXIMITY_MAX_DIST_CM = 100;
+const uint16_t PROXIMITY_MAX_DIST_CM = 20;
 // Define the Minimum Distance of Proxmity Sensor Reading
 const uint16_t PROXMITY_MIN_DIST_CM = 0;
 
@@ -20,9 +20,9 @@ const Pin LED_CONNECTED = D5;
 
 // WiFi SSID
 // This is essentially the name of the Wifi
-const char WIFI_SSID[] = "WiFi";
+const char WIFI_SSID[] = "DLDA";
 // WIFI Password
-const char WIFI_PASSWORD[] = "kanakhalivajau?";
+const char WIFI_PASSWORD[] = "987654321";
 
 // MQTT Broker Configuration Information
 
