@@ -2,7 +2,7 @@ package com.arduino.sensor;
 
 import com.arduino.Constants;
 
-public class TemperatureSensor {
+public class TemperatureSensor implements Sensor {
     private final String type = Constants.TEMPERATURE_SENSOR_VALUE_START_WITH;
     private long m_celsius;
 
